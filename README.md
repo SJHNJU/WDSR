@@ -19,8 +19,8 @@ look up .numbers to find specific description of given samples and checkpoint
 **test method**
 
 Random crop 700x700 HR image from every image in the DIV2K validset and its LR counterpart \
-calculate the mean PSNR of HR and the network's output
+Calculate the mean PSNR of HR image and the output from the network
 
 **make correspond empty folder to store samples before test** \
-use *python psnr.py* begin test
+*python psnr.py*
 
