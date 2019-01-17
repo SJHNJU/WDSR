@@ -2,23 +2,26 @@
 *A Pytorch implement of NTIRE2018 No.1 network WDSR https://arxiv.org/abs/1808.08718v1*
 
 ## How to train
-**delete & make new**
+**Delete & make new**
 ```
 vim ./loss.log
 mkdir ./samples
 mkdir ./checkpoint
 ```
-**GPUs are needed for training** \
+
+**GPUs are needed for training**
+
 ```python main.py --cuda```
 
 ## How to test
-**test method**
+**Test method**
 
 700x700 HR image and its LR counterpart are random cropped from every image in the DIV2K validset  \
 Calculate the mean PSNR of HR image and Image Restored by network
 
 **make correspond empty folder to store samples before test** \
-```mkdir ./foldername/``` \
+```mkdir ./foldername/```
+
 Change samples save path in psnr.py \
 ```python psnr.py```
 
