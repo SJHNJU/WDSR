@@ -10,8 +10,9 @@ mkdir ./checkpoint
 ```
 
 **GPUs are needed for training**
-
-```python main.py --cuda```
+```
+python main.py --cuda
+```
 
 ## How to test
 **Test method**
@@ -19,10 +20,14 @@ mkdir ./checkpoint
 700x700 HR image and its LR counterpart are random cropped from every image in the DIV2K validset  \
 Calculate the mean PSNR of HR image and Image Restored by network
 
-**make correspond empty folder to store samples before test** \
-```mkdir ./foldername/```
+**make correspond empty folder to store samples before test**
+```
+mkdir ./foldername/
+```
 
-Change samples save path in psnr.py \
-```python psnr.py```
+**Change samples save path in psnr.py**
+```
+python psnr.py
+```
 
 ***Specific description of given samples and checkpoint as well as test results are in the .numbers file***
