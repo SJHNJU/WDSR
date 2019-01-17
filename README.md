@@ -20,7 +20,7 @@ python main.py --cuda
 ## How to test
 **Test method**
 
-700x700 HR image and its LR counterpart are random cropped from every image in the DIV2K Validset  \
+700x700 HR image and its LR counterpart are random cropped from every image in DIV2K Validset  \
 Calculate the mean PSNR of HR image and Image Restored by network
 
 **make correspond empty folder to store samples before test**
@@ -33,4 +33,4 @@ mkdir ./foldername/
 python psnr.py
 ```
 
-***Specific description of given samples and checkpoint as well as test results are in the .numbers file***
+***Specific description of given samples, checkpoint as well as test results can be found in .numbers file ^_^***
