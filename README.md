@@ -10,7 +10,7 @@ https://arxiv.org/abs/1808.08718v1
 ./checkpoint/
 
 **GPUs are needed for training** \
->python main.py --cuda
+```python main.py --cuda```
 
 Specific description of given samples and checkpoint is in the .numbers file
 
@@ -22,6 +22,5 @@ Specific description of given samples and checkpoint is in the .numbers file
 Calculate the mean PSNR of HR image and the image restored by network
 
 **make correspond empty folder to store samples before test** \
->mkdir ./foldername/
->python psnr.py
-
+```mkdir ./foldername/``` \
+```python psnr.py```
