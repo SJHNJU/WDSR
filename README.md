@@ -5,22 +5,23 @@ https://arxiv.org/abs/1808.08718v1
 ### How to train
 **delete & make new**
 
-loss.log \
-samples \
-checkpoint
+./loss.log \
+./samples/ \
+./checkpoint/
 
-Use GPU for training \
-*python main.py --cuda* 
+**GPUs are needed for training** \
+>python main.py --cuda
 
-look up .numbers to find specific description of given samples and checkpoint
+Specific description of given samples and checkpoint is in the .numbers file
 
 
 ### How to test
 **test method**
 
-Random crop 700x700 HR image from every image in the DIV2K validset and its LR counterpart \
-Calculate the mean PSNR of HR image and the output from the network
+700x700 HR image and its LR counterpart are random cropped from every image in the DIV2K validset  \
+Calculate the mean PSNR of HR image and the image restored by network
 
 **make correspond empty folder to store samples before test** \
-*python psnr.py*
+>mkdir ./foldername/
+>python psnr.py
 
