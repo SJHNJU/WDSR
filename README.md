@@ -27,7 +27,7 @@ Calculate the mean PSNR of HR image and Image Restored by network
 ```
 mkdir ./foldername/
 ```
-description
+
 **change samples save_path and model to restore in psnr.py**
 ```
 python psnr.py
