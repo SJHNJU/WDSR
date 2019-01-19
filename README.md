@@ -36,4 +36,8 @@ python psnr.py
 ***Specific  of given samples, checkpoint as well as test results can be found in .numbers file ^_^***
 
 ## Result
-<img src="https://raw.githubusercontent.com/SJHNJU/WDSR/master/samples/res.png" width=300 alt='Result'>
+<img src="https://raw.githubusercontent.com/SJHNJU/WDSR/master/samples/res.png" width=300 alt='Truth'>
+
+<img src="https://raw.githubusercontent.com/SJHNJU/WDSR/master/samples/2.png" width=300 alt='LR'>
+
+<img src="https://raw.githubusercontent.com/SJHNJU/WDSR/master/samples/3.png" width=300 alt='Output'>
