@@ -2,7 +2,13 @@
 
 *A Pytorch implement of NTIRE2018 No.1 network WDSR https://arxiv.org/abs/1808.08718v1* \
 *Dataset: DIV2K 2017 https://data.vision.ee.ethz.ch/cvl/DIV2K/* \
-*Training data is augmented with random horizontal filp and rotations, check utility.py!*
+```
+DATA 
+├── HR  
+└── LR
+```
+*Training data is augmented with random horizontal filp and rotations, check utility.py and rewrite class SRdataset!*
+
 
 ## How to train
 **Delete & make new**
@@ -33,7 +39,7 @@ mkdir ./foldername/
 python psnr.py
 ```
 
-***Specific  of given samples, checkpoint as well as test results can be found in .numbers file ^_^***
+***Specific description of given samples, checkpoint as well as test results can be found in .numbers file ^_^***
 
 ## Result
 <img src="https://raw.githubusercontent.com/SJHNJU/WDSR/master/samples/1.png" width=300 alt='Truth'>
