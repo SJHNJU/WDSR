@@ -1,7 +1,7 @@
 # 2018.12视频通信大作业
 
 *A Pytorch implement of NTIRE2018 No.1 network WDSR https://arxiv.org/abs/1808.08718v1* \
-*Dataset: DIV2K 2017 https://data.vision.ee.ethz.ch/cvl/DIV2K/* \
+*Dataset: DIV2K 2017 https://data.vision.ee.ethz.ch/cvl/DIV2K/* 
 ```
 DATA 
 ├── HR  
